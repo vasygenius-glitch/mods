@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.xaeroaddon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "GuiMapMixin",
+    "GuiMapAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
