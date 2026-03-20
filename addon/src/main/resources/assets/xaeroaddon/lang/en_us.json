@@ -1,0 +1,6 @@
+{
+  "gui.xaeroaddon.generate_chunks": "Generate",
+  "message.xaeroaddon.warning_admin": "§c[Warning]§r Generating chunks requires server admin/OP permissions and can cause heavy lag. Click 'Generate' again to confirm.",
+  "message.xaeroaddon.chunks_generating": "§aForce-loading chunks around you...§r",
+  "message.xaeroaddon.no_permission": "§cYou do not have OP permissions to generate chunks!§r"
+}

@@ -1,0 +1,6 @@
+{
+  "gui.xaeroaddon.generate_chunks": "Сгенерировать",
+  "message.xaeroaddon.warning_admin": "§c[Внимание]§r Генерация чанков требует прав администратора и может вызвать лаги. Нажмите 'Сгенерировать' еще раз для подтверждения.",
+  "message.xaeroaddon.chunks_generating": "§aПринудительная загрузка чанков вокруг вас...§r",
+  "message.xaeroaddon.no_permission": "§cУ вас нет прав администратора для генерации чанков!§r"
+}
