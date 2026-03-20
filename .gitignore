@@ -9,3 +9,5 @@ src_decompiled/
 addon/.gradle/
 addon/build/
 addon/bin/
+tmp_decomp/
+tmp_decomp/

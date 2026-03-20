@@ -8,6 +8,6 @@ import xaero.map.MapProcessor;
 
 @Mixin(GuiMap.class)
 public interface GuiMapAccessor {
-    @Accessor("mapProcessor")
+    @Accessor(value = "mapProcessor", remap = false)
     MapProcessor getMapProcessor();
 }

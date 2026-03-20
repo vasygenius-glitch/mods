@@ -1,0 +1,23 @@
+import xaero.lib.common.config.single.SingleConfigManager;
+import xaero.lib.common.util.MathUtils;
+import xaero.map.MapProcessor;
+import xaero.map.WorldMap;
+import xaero.map.animation.Animation;
+--
+   private MapMouseButtonPress leftMouseButton;
+   private MapMouseButtonPress rightMouseButton;
+   private MapProcessor mapProcessor;
+   private MapDimension futureDimension;
+   public boolean noUploadingLimits;
+--
+   private static final Matrix4f identityMatrix = new Matrix4f();
+
+   public GuiMap(class_437 parent, class_437 escape, MapProcessor mapProcessor, class_1297 player) {
+      super(parent, escape, class_2561.method_43471("gui.xaero_world_map_screen"));
+      this.player = player;
+--
+   }
+
+   public MapProcessor getMapProcessor() {
+      return this.mapProcessor;
+   }
