@@ -29,7 +29,8 @@ public abstract class GuiMapMixin extends ScreenBase {
         super(parent, escape, title);
     }
 
-    @Inject(method = "init()V", at = @At("TAIL"))
+    // Remap = false since method_25426 is exactly what it's named in the jar
+    @Inject(method = "method_25426", at = @At("TAIL"), remap = false)
     private void addDimensionArrows(CallbackInfo ci) {
         GuiMap self = (GuiMap) (Object) this;
 
@@ -84,7 +85,7 @@ public abstract class GuiMapMixin extends ScreenBase {
             RegistryKey<World> nextKey = dims.get(nextIndex).getDimId();
             world.setCustomDimensionId(nextKey);
 
-            screen.init(MinecraftClient.getInstance(), screen.width, screen.height);
+            screen.method_25426(); // Call init() directly as method_25426()
         } catch (Exception e) {
             e.printStackTrace();
         }
